@@ -1,0 +1,15 @@
+name: sun                      # Or your conda environment name
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9.18                 # Python version
+  - pandas=2.0.3
+  - numpy=1.26.3
+  - biopython=1.79
+  - pysam=0.9.1
+  - scipy=1.11.4
+  - statsmodels=0.14.0
+  - matplotlib=3.8.0
+  - seaborn=0.12.2
+  - openpyxl=3.0.10
